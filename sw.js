@@ -1,5 +1,5 @@
 // 오프라인에서도 열리도록 앱 파일을 저장해 둔다. 내용을 고치면 VERSION 숫자를 올릴 것.
-const VERSION = 'stx-v2';
+const VERSION = 'stx-v3';
 const FILES = ['./', 'index.html', 'styles.css', 'app.js', 'lessons.js', 'manifest.json', 'favicon.png', 'SolunaTex 연습 자료.xlsx', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
